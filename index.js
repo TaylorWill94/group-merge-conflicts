@@ -1,3 +1,4 @@
+
 function  addthese(...c) {
     if (!c.every((number) => Number.isNumber(number)))
       throw "All arguments must be numbers.";
