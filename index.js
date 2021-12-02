@@ -1,8 +1,9 @@
 
-function  addthese(...c) {
-    if (!c.every((number) => Number.isNumber(number)))
-      throw "All arguments must be numbers.";
-    return c.reduce((a, b) => a + b);
+function fn(...element) {
+    if (!element.every((el) => el < 40))
+      throw "This ain't gon work";
+    return element.reduce((a, b) => a + b)
+
   }
   
   fn(1, 2, 3); //> 6
