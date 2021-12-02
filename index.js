@@ -1,5 +1,6 @@
-function fn(...c) {
-    if (!c.every((apples) => Number.isNumber(apple)))
+
+function  addthese(...c) {
+    if (!c.every((number) => Number.isNumber(number)))
       throw "All arguments must be numbers.";
     return c.reduce((a, b) => a + b);
   }
